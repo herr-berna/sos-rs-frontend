@@ -102,7 +102,7 @@ const Home = () => {
           </div>
         }
       />
-      <div className="p-5 gap-3 flex flex-col w-full max-w-5xl">
+      <div className="p-5 gap-3 flex flex-col w-full max-w-5xl pb-20">
         <h1 className="text-[#2f2f2f] font-semibold text-2xl">
           Abrigos disponíveis ({shelters.count})
         </h1>
@@ -154,7 +154,7 @@ const Home = () => {
           )}
         </main>
       </div>
-      <div className="w-full flex-col md:flex-row py-8 md:py-4 px-2 md-p4 flex gap-3 justify-center flex-wrap items-center bg-red-600">
+      <div className="w-full flex-col md:flex-row py-8 md:py-4 px-2 md-p4 flex gap-3 justify-center flex-wrap items-center bg-red-600 fixed bottom-0 left-0">
         <p className="text-white">
           Para cadastrar novos abrigos clique{' '}
           <a
